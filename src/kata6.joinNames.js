@@ -10,13 +10,6 @@ const joinNames = namesObj => {
 
   return finalArray;
 
-//    //arrayOfNames.reduce((previous, current, index, array) => {
-//     if (i === array.length - 1) {
-//       return previous + " & " + current;
-//     } 
-//     return previous + ", " + current;
-//   })
-//   return arrayOfNames; //
 };
 
 module.exports = joinNames;
